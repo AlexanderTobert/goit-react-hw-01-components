@@ -11,7 +11,6 @@ export const TitleName = styled.h2`
     margin: 0;
     line-height: 1.25;
     font-size: 24px;
-    font-style: sans-serif;
     color: black;
     text-align: center;
 `

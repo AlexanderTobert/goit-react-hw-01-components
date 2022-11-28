@@ -7,7 +7,7 @@ export const Statistics = ({
     return (
         <>
             <StatsSection>
-                <TitleName >{title}</TitleName>
+                {title && <TitleName >{title}</TitleName>}
                 <StatsList>
                 {stats.map(({ id, label, percentage }) => (
                     <StatsItem key={id} bgColor={getRandomHexColor()}>
